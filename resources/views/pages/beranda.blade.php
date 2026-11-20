@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,4 +15,13 @@
     <h1>ini adalah tampilan utama beranda</h1>
 </body>
 </html>
+-->
 
+@extends('layouts.master')
+
+@section('content')
+<div class="alert alert-primary" role="alert">
+	Selamat datang di halaman beranda
+</div>
+
+@endsection
